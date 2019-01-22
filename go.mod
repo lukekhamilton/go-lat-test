@@ -1,0 +1,1 @@
+module go-lat-test
