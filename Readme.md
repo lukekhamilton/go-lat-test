@@ -4,14 +4,13 @@ Please find enclosed the latitude code exercise based around the getMaxProfit fu
 
 All code is writen in golang
 
-I have taken a TTD approach to this problem and setup the test cases (main_test.go) to support easlier added new sample data tables for quickly added extra data sets.
+I have taken a TTD approach to this problem and setup the test cases (main_test.go) to support easly added new sample data tables for quickly added extra data sets if needed.
 
 I have also wrap the project up in a Dockerfile for quick and easy running of the project with the only dependency then being docker.
 
-
 ## Usage
 
-To buld the docker image and run the test, just simple run:
+To build the docker image and run the test, just simple run the following:
 
 `make`
 
