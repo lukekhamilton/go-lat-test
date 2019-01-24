@@ -20,7 +20,8 @@ func getMaxProfit(stockPrices []int) int {
 			highestPriceIndex = i
 		}
 	}
+	profit := highestPrice - lowestPrice
 
-	log.Printf("Lowest[%v]: %v, Highest[%v]: %v\n", lowestPriceIndex, lowestPrice, highestPriceIndex, highestPrice)
-	return highestPrice - lowestPrice
+	log.Printf("Lowest[%v]: %v, Highest[%v]: %v Profit: %v\n", lowestPriceIndex, lowestPrice, highestPriceIndex, highestPrice, profit)
+	return profit
 }
